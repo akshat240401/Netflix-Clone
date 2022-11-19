@@ -1,6 +1,7 @@
 import './Header.css';
 
 function Header() {
+  // url for latest movies - /latest
   return (
     <header>
       <div className='header_inner_shadow'></div>
@@ -12,11 +13,11 @@ function Header() {
           />
         </div>
         <h4 className='header_desc'>
-          Yeon-du asks her best friend Bora to collect all the information she can about
+          "Yeon-du asks her best friend Bora to collect all the information she can about
           Baek Hyun-jin while she is away in the U.S. for heart surgery. Bora decides to
           get close to Baek's best friend, Pung Woon-ho first. However, Bora's clumsy plan
           unfolds in an unexpected direction. In 1999, a year before the new century,
-          Bora, who turns seventeen, falls into the fever of first love.
+          Bora, who turns seventeen, falls into the fever of first love."
         </h4>
         <div className='header_buttons'>
           <button className='header_button play_button'>

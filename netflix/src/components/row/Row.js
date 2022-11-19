@@ -20,11 +20,9 @@ export default function Row(props) {
     <h3 className='row_title'>{props.title}</h3>
     <div className='row_card'>
      {movies.map((el) => {
-        console.log(el)
-        return <Card title={el.title} poster={el.backdrop_path} />;
+        return <Card title={el.title} poster={el.backdrop_path} id={el.id} />;
       })}
     </div>
-     
     </div>
   );
 }
